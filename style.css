@@ -123,8 +123,10 @@ nav button.menuButton{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#nacho{
+#nacho {
+    margin-top: 12px;
     text-align: center;
+    font-size: 12px;
 }
 
 .main .left{
