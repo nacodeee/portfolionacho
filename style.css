@@ -149,9 +149,27 @@ nav button.menuButton{
     margin-top: 20px;
 }
 
-.main .left .buttonxd{
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .left .buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    gap: 30px; /* Espacio entre los botones */
+}
+
+.main .left .buttonxd,
+.main .left .buttondiplomas {
     color: #0f5d91;
-    margin-top: 25px;
     background-color: transparent;
     padding: 12px 16px;
     border-radius: 5px;
@@ -160,10 +178,11 @@ nav button.menuButton{
     transition: all 0.3s ease;
 }
 
-.main .left .buttonxd:hover{
+.main .left .buttonxd:hover,
+.main .left .buttondiplomas:hover {
     background-color: #09f;
     border-color: #09f;
-    color: #fff !important; 
+    color: #fff !important;
 }
 
 .main .right img{
