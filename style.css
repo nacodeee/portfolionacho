@@ -339,6 +339,10 @@ nav button.menuButton{
     padding: 20px 32px 42px;
 }
 
+#tectexto {
+    font-size: 18px;    
+}
+
 .portfolio .portfo-items .item .info p{
     font-size: 13px;
 }
@@ -355,7 +359,7 @@ nav button.menuButton{
 }
 
 footer{
-    background-color: #fff;
+    background-color: #deebee;
     padding: 85px;
     display: flex;
     flex-direction: column;
@@ -605,12 +609,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #deebee;
+    background-color: #fff;
     }
     .container {
     width: 80%;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #deebee;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -662,7 +666,7 @@ body {
       .container .formularioboton{
         color: #0f5d91;
         margin-top: 5px;
-        background-color: transparent;
+        background-color: #fff;
         padding: 12px 16px;
         border-radius: 5px;
         border: 1px solid #0f5d91;
@@ -676,54 +680,4 @@ body {
         color: #fff !important; 
     }
     
-
-    .technologies {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        height: 40vh; /* 2 filas de altura */
-        background-color: #f0f0f0;
-    }
-
-    .technology {
-        width: 20%;
-        height: 40%;
-        margin: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        overflow: hidden;
-        border-radius: 20px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease;
-    }
-
-    .technology img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .technology:hover {
-        transform: scale(1.1);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .technology:hover .overlay {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    .overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        color: white;
-        padding: 10px;
-        opacity: 0;
-        transform: translateY(100%);
-        transition: all 0.3s ease;
-    }
+    
