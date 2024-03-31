@@ -32,4 +32,63 @@ function typeText() {
 
 typeText();
 
+
+// *TRANSLATOR* // const languageBtn = document.getElementById('language-btn');
+// *TRANSLATOR* // let isEnglish = true;
+// *TRANSLATOR* // 
+// *TRANSLATOR* // languageBtn.addEventListener('click', function() {
+// *TRANSLATOR* //   const flags = {
+// *TRANSLATOR* //     english: 'usa-flag.png',
+// *TRANSLATOR* //     spanish: 'spain-flag.png'
+// *TRANSLATOR* //   };
+// *TRANSLATOR* // 
+// *TRANSLATOR* //   const texts = {
+// *TRANSLATOR* //     english: {
+// *TRANSLATOR* //       home: 'Home',
+// *TRANSLATOR* //       skills: 'Skills',
+// *TRANSLATOR* //       about: 'About me',
+// *TRANSLATOR* //       portfolio: 'Portfolio'
+// *TRANSLATOR* //     },
+// *TRANSLATOR* //     spanish: {
+// *TRANSLATOR* //         home: 'Inicio',
+// *TRANSLATOR* //         skills: 'Habilidades',
+// *TRANSLATOR* //         about: 'Sobre mi',
+// *TRANSLATOR* //         portfolio: 'Portfolio'
+// *TRANSLATOR* //     }
+// *TRANSLATOR* //   };
+// *TRANSLATOR* // 
+// *TRANSLATOR* //   if (isEnglish) {
+// *TRANSLATOR* //     // Cambiar textos a inglés
+// *TRANSLATOR* //     document.querySelectorAll('nav ul li a').forEach((link, index) => {
+// *TRANSLATOR* //       link.textContent = Object.values(texts.english)[index];
+// *TRANSLATOR* //     });
+// *TRANSLATOR* //     // Cambiar bandera a España
+// *TRANSLATOR* //     languageBtn.innerHTML = '<img src="assets/spain-flag.png" alt="Spain Flag" style="width: 20px; height: auto;">';
+// *TRANSLATOR* //   } else {
+// *TRANSLATOR* //     // Cambiar textos a español
+// *TRANSLATOR* //     document.querySelectorAll('nav ul li a').forEach((link, index) => {
+// *TRANSLATOR* //       link.textContent = Object.values(texts.spanish)[index];
+// *TRANSLATOR* //     });
+// *TRANSLATOR* //     // Cambiar bandera a Estados Unidos
+// *TRANSLATOR* //     languageBtn.innerHTML = '<img src="assets/usa-flag.png" alt="USA Flag" style="width: 20px; height: auto;">';
+// *TRANSLATOR* //   }
+// *TRANSLATOR* // 
+// *TRANSLATOR* //   // Cambiar estado de la bandera
+// *TRANSLATOR* //   isEnglish = !isEnglish;
+// *TRANSLATOR* // 
+// *TRANSLATOR* //   // Cambiar el idioma de todo el contenido
+// *TRANSLATOR* //   document.querySelectorAll('body *').forEach(element => {
+// *TRANSLATOR* //     if (element.tagName !== 'SCRIPT' && element.tagName !== 'STYLE') {
+// *TRANSLATOR* //       if (isEnglish) {
+// *TRANSLATOR* //         if (element.dataset.spanish) {
+// *TRANSLATOR* //           element.textContent = element.dataset.spanish;
+// *TRANSLATOR* //         }
+// *TRANSLATOR* //       } else {
+// *TRANSLATOR* //         if (element.dataset.english) {
+// *TRANSLATOR* //           element.textContent = element.dataset.english;
+// *TRANSLATOR* //         }
+// *TRANSLATOR* //       }
+// *TRANSLATOR* //     }
+// *TRANSLATOR* //   });
+// *TRANSLATOR* // });
     
