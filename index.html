@@ -11,6 +11,10 @@
     <meta name="author" content="nacode">
     <link rel="icon" href="assets/favicon.png" type="image/x-icon">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6ED787BM5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -24,16 +28,17 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#main">Inicio</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#about">Sobre mí</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <!-- *TRANSLATOR* -- <li><button id="language-btn"><img src="assets/usa-flag.png" alt="USA Flag" style="width: 20px; height: auto;"></button></li> -->
-        </ul>
-        <a href="#contactoform" class="menuButton">Contacto</a>
-    </nav>
+    <div class="menu-container">
+        <label for="menu-checkbox" class="menu-toggler">☰</label>
+        <input type="checkbox" id="menu-checkbox">
+        <div class="menu">
+            <a href="#main">🏠 Inicio</a>
+            <a href="#skills">🚧 Habilidades</a>
+            <a href="#about">💡 Sobre mí</a>
+            <a href="#portfolio">💼 Proyectos</a>
+            <a href="#contactoform">🤝 Contacto</a>
+        </div>
+    </div>
 
     <div class="main" id="main">
         <div class="left">
