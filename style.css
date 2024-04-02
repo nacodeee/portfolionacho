@@ -1,3 +1,7 @@
+html {
+    scroll-behavior:smooth;
+}
+
 @import url('https://fonts.googleapis.com/css2?erfamily=Roboto:wght@300;400;500;700&display=swap');
 
 ::-webkit-scrollbar-button {
@@ -716,3 +720,36 @@ body {
     }
     
     
+
+
+
+
+
+
+
+
+    #scrollToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #09f;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      
+      #scrollToTopBtn:hover {
+        transition-duration: 450ms;
+        background-color: #fff;
+        color: #09f;
+        outline: 1px solid #09f;
+        padding: 9px;
+      }
+
+
+      
