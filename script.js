@@ -92,10 +92,12 @@ typeText();
 // *TRANSLATOR* //   });
 // *TRANSLATOR* // });
     
-
-$(document).ready(function(){
-    $.get("guardar_ip.php", function(data, status){
-      console.log("IP guardada correctamente");
+document.addEventListener('DOMContentLoaded', function() {
+    $(document).ready(function(){
+        $.get("guardar_ip.php", function(data, status){
+            console.log("IP guardada correctamente");
+        });
     });
-  });
+});
+
   
