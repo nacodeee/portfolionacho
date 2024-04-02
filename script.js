@@ -91,13 +91,4 @@ typeText();
 // *TRANSLATOR* //     }
 // *TRANSLATOR* //   });
 // *TRANSLATOR* // });
-    
-document.addEventListener('DOMContentLoaded', function() {
-    $(document).ready(function(){
-        $.get("guardar_ip.php", function(data, status){
-            console.log("IP guardada correctamente");
-        });
-    });
-});
-
   
