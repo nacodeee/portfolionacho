@@ -20,13 +20,13 @@ function typeText() {
 
     if (!isDeleting && letterIndex === currentText.length + 1) {
         isDeleting = true;
-        setTimeout(typeText, 500); // Espera antes de borrar
+        setTimeout(typeText, 500); 
     } else if (isDeleting && letterIndex === 0) {
         isDeleting = false;
-        index = (index + 1) % texts.length; // Cambia al siguiente texto
-        setTimeout(typeText, 500); // Espera antes de empezar a escribir el siguiente
+        index = (index + 1) % texts.length; 
+        setTimeout(typeText, 500); 
     } else {
-        setTimeout(typeText, 100); // Sigue escribiendo o borrando
+        setTimeout(typeText, 100); 
     }
 }
 

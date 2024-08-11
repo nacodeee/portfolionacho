@@ -725,6 +725,10 @@ body {
         border-color: #09f;
         color: #fff !important; 
     }
+
+    h1 {
+        font-size: 20px;
+    }
     
     
 

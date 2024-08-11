@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Soy un desarrollador FullStack de Argentina especializado en UI/UX design y diseño gráfico (logos, banners, flyers). Ofrezco soluciones creativas y funcionales para tus proyectos web, asegurando una experiencia de usuario excepcional y un diseño atractivo. ¡Conoce más sobre mis servicios!">
+    <meta name="description" content="Soy un desarrollador FullStack de Argentina especializado en el diseño UI, UX y gráfico. Ofrezco soluciones para tus proyectos, asegurando una experiencia de usuario excepcional y un diseño atractivo.">
     <meta name="keywords" content="fullstack, html, software, engineer, software engineer, frontend, backend, web, diseño web, programador web, programacion web, nacode, midudev, dalto, programacion, coding, web code, code web, code">
     <meta name="author" content="nacode">
     <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +25,7 @@
         gtag('config', 'G-T6ED787BM5');
     </script>
 
-    <title>nacode | Desarrollador FullStack, Diseñador Gráfico, Diseñador UI/UX, Frontend, Backend, SEO</title>
+    <title>nacode | Desarrollador FullStack, Diseñador Gráfico, UI & UX, SEO</title>
 </head>
 
 <body>
@@ -40,14 +41,14 @@
         </div>
     </div>
 
-    <button id="scrollToTopBtn" onclick="scrollToTop()" title="Volver arriba">↑</button>
+    <button id="scrollToTopBtn" onclick="scrollToTop()" title="Go back to top">↑</button>
 
     <div class="main" id="main">
         <div class="left">
             <h5>Hola, soy <span>nacode</span>. 👋</h5>
             <h3><span id="textSpan2"></span>.</h3>
             <p class="iniciotexto">
-                Con una sólida formación y experiencia en el desarrollo web y el diseño creativo, 
+                Con una sólida formación y experiencia en el desarrollo Full Stack, y el diseño grafico y de interfaces, 
                 me dedico a crear soluciones digitales únicas y efectivas para mis clientes. 
                 Mi enfoque centrado en el usuario y mi atención al detalle me permiten ofrecer 
                 experiencias de usuario excepcionales y diseños visualmente impactantes. 
@@ -59,7 +60,7 @@
             </div>
         </div>
         <div class="right">
-            <img src="assets/logo.png">
+            <img src="assets/logo.png" alt="logo nacode">
         </div>
     </div>
 
@@ -68,7 +69,7 @@
         <div class="skill-items">
             <div class="item">
                 <div class="icon"><i class='bx bx-directions'></i></div>
-                <h4>Estrategia y Dirección</h4>
+                <h1>Estrategia y Dirección</h1>
                 <p>
                     Con experiencia en estrategia digital y dirección de proyectos, 
                     puedo ayudar a tu marca a alcanzar sus objetivos de manera efectiva y enfocada.
@@ -76,7 +77,7 @@
             </div>
             <div class="item">
                 <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
-                <h4>Marcas y Logo</h4>
+                <h1>Marcas y Logo</h1>
                 <p>
                     Desde la conceptualización hasta la implementación, puedo crear una identidad visual única y 
                     memorable para tu marca que refleje su esencia y atraiga a tu audiencia.
@@ -84,7 +85,7 @@
             </div>
             <div class="item">
                 <div class="icon"><i class='bx bxl-figma'></i></i></div>
-                <h4>Diseño UI/UX</h4>
+                <h1>Diseño UI/UX</h1>
                 <p>
                     Diseño interfaces intuitivas y atractivas que proporcionan experiencias de usuario excepcionales, 
                     aumentando la satisfacción y fidelidad de tus clientes.
@@ -92,7 +93,7 @@
             </div>
             <div class="item">
                 <div class="icon"><i class='bx bx-code-alt'></i></i></div>
-                <h4>Código Webflow</h4>
+                <h1>Código Webflow</h1>
                 <p>
                     Como desarrollador FullStack, tengo experiencia en la creación de sitios web dinámicos y 
                     responsivos utilizando Webflow, 
@@ -104,7 +105,7 @@
 
     <div class="about" id="about">
         <div class="left">
-            <img src="assets/sobremi.png">
+            <img src="assets/sobremi.png" alt="perfil nacode">
         </div>
         <div class="right">
             <h3>Sobre mi</h3>
@@ -132,7 +133,7 @@
 
         <div class="portfo-items">
             <div class="item">
-                <img src="assets/sc-1.jpg">
+                <img src="assets/sc-1.jpg" alt="Diseño de Interfaz, Better Google Phone">
                 <div class="info">
                     <h4>UI/UX, Better Google (Phone)</h4>
                     <p>
@@ -143,7 +144,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="assets/sc-2.jpg">
+                <img src="assets/sc-2.jpg" alt="Sitio Web Bienes Raices Nacode">
                 <div class="info">
                     <h4>Bienes Raices</h4>
                     <p>
@@ -154,7 +155,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="assets/sc-3.jpg">
+                <img src="assets/sc-3.jpg" alt="Portfolio Nacode">
                 <div class="info">
                     <h4>Portfolio</h4>
                     <p>
@@ -204,7 +205,7 @@
             })
             .then(function(response) {
                 if (response.ok) {
-                alert('Message sent successfully!');
+                alert('¡Mensaje enviado correctamente!');
                 document.getElementById('contact-form').reset();
                 } else {
                 throw new Error('Network response was not ok.');
@@ -219,7 +220,7 @@
     <footer>
         <div class="top">
             <div class="logo">
-                <img src="assets/logo.png">
+                <img src="assets/logo.png" alt="logo nacode 2">
                 <a href="https://instagram.com/at.nxcho">nacode</a>
             </div>
             <ul>
