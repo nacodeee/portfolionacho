@@ -1,4 +1,4 @@
-const texts = ['Desarrollador FullStack', 'Diseñador Gráfico', 'Diseñador UI/UX'];
+const texts = ['Frontend Developer', 'Cybersec Engineer', 'Graphic/UI/UX Designer'];
 
 let index = 0;
 let letterIndex = 0;

@@ -1,255 +1,187 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Desarrollador FullStack de Argentina especializado en UI/UX y diseño gráfico. Creo soluciones con un diseño atractivo y una experiencia de usuario excepcional.">
-    <meta name="keywords" content="fullstack, html, software, engineer, software engineer, frontend, backend, web, diseño web, programador web, programacion web, nacode, midudev, dalto, programacion, coding, web code, code web, code">
-    <meta name="author" content="nacode">
-    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon.png">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6ED787BM5"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-T6ED787BM5');
-    </script>
-
-    <title>nacode | Desarrollador Web, Diseñador GFX/UI/UX, SEO</title>
+    <title>nacode's portfolio</title>
 </head>
 
 <body>
-    <div class="menu-container">
-        <label for="menu-checkbox" class="menu-toggler">☰</label>
-        <input type="checkbox" id="menu-checkbox">
-        <div class="menu">
-            <a href="#main">🏠 Inicio</a>
-            <a href="#skills">🚧 Habilidades</a>
-            <a href="#about">💡 Sobre mí</a>
-            <a href="#portfolio">💼 Proyectos</a>
-            <a href="#contactoform">🤝 Contacto</a>
-        </div>
+
+    <div class="navbar">
+        <h2>nacode</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <section class="resume-btn">
+            <a href="https://nacode.site/resume" target="_blank">Resume</a>
+        </section>
     </div>
 
-    <button id="scrollToTopBtn" onclick="scrollToTop()" title="Go back to top">↑</button>
-
-    <div class="main" id="main">
-        <div class="left">
-            <h1>Hola, soy <span>nacode</span>. 👋</h1>
-            <h3><span id="textSpan2"></span>.</h3>
-            <p class="iniciotexto">
-                Con una sólida formación y experiencia en el desarrollo Full Stack, y el diseño grafico y de interfaces, 
-                me dedico a crear soluciones digitales únicas y efectivas para mis clientes. 
-                Mi enfoque centrado en el usuario y mi atención al detalle me permiten ofrecer 
-                experiencias de usuario excepcionales y diseños visualmente impactantes. 
-                ¡Trabajo para convertir tus ideas en realidad!
-            </p>
-            <div class="buttons">
-            <a href="assets/curriculum.pdf" target="_blank" class="buttoncv">Curriculum</a>
-            <a href="assets/certificados.pdf" target="_blank" class="buttonxd">Certificaciones</a>
-            </div>
-        </div>
-        <div class="right">
-            <img src="assets/logo.png" alt="logo nacode">
-        </div>
+    <div class="main">
+        <h4>Hi, i'm <span>nacode</span>. 👋</h4>
+        <p class="title"><span id="textSpan2"></span>.</p>
+        <p class="subtitle">I'm a creative developer and designer who builds secure, visually stunning, and user-friendly experiences. <br> I love combining code, design, and security to make the web a better place!</p>
+        <img id="logo" src="assets/logo.png">
     </div>
 
-    <div class="skills" id="skills">
-        <h3>Mis habilidades</h3>
-        <div class="skill-items">
-            <div class="item">
-                <div class="icon"><i class='bx bx-directions'></i></div>
-                <h4>Estrategia y Dirección</h4>
-                <p>
-                    Con experiencia en estrategia digital y dirección de proyectos, 
-                    puedo ayudar a tu marca a alcanzar sus objetivos de manera efectiva y enfocada.
-                </p>
+    <div class="guarantee">
+        <div class="item">
+            <div class="icon">
+                <i class='bx bx-check-shield'></i>
             </div>
-            <div class="item">
-                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
-                <h4>Marcas y Logo</h4>
-                <p>
-                    Desde la conceptualización hasta la implementación, puedo crear una identidad visual única y 
-                    memorable para tu marca que refleje su esencia y atraiga a tu audiencia.
-                </p>
-            </div>
-            <div class="item">
-                <div class="icon"><i class='bx bxl-figma'></i></i></div>
-                <h4>Diseño UI/UX</h4>
-                <p>
-                    Diseño interfaces intuitivas y atractivas que proporcionan experiencias de usuario excepcionales, 
-                    aumentando la satisfacción y fidelidad de tus clientes.
-                </p>
-            </div>
-            <div class="item">
-                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
-                <h4>Código Webflow</h4>
-                <p>
-                    Como desarrollador FullStack, tengo experiencia en la creación de sitios web dinámicos y 
-                    responsivos utilizando Webflow, 
-                    garantizando un diseño de alta calidad y funcionalidad óptima.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="about" id="about">
-        <div class="left">
-            <img src="assets/sobremi.png" alt="perfil nacode">
-        </div>
-        <div class="right">
-            <h3>Sobre mi</h3>
-            <p>
-                ¡Hola! Soy un apasionado desarrollador FullStack y diseñador gráfico de Argentina, 
-                especializado en crear experiencias digitales sorprendentes y funcionales. 
-                Mi enfoque es combinar la estética visual con la funcionalidad para crear productos 
-                intuitivos y atractivos.
-            </p>
-            <p>
-                Con conocimientos en HTML, CSS, React, JavaScript, PHP, Python, 
-                MongoDB, MySQL, Git, Terminales, Optimización SEO, Marketing y más, 
-                transformo ideas en productos web dinámicos, atractivos y posicionados en los buscadores. 
-                ¡Espero poder colaborar contigo en tu próximo proyecto!
-            </p>
-        </div>
-    </div>
-
-    <div class="portfolio" id="portfolio">
-        <div class="header">
             <div class="info">
-                <h3>Proyectos</h3>
+                <h3>+2</h3>
+                <p>Years of Experience</p>
             </div>
+            <i class='bx bx-chevron-right'></i>
+        </div>
+        <div class="item">
+            <div class="icon">
+                <i class='bx bx-check-circle'></i>
+            </div>
+            <div class="info">
+                <h3>+10</h3>
+                <p>Completed Projects</p>
+            </div>
+            <i class='bx bx-chevron-right'></i>
+        </div>
+        <div class="item">
+            <div class="icon">
+                <i class='bx bx-laugh'></i>
+            </div>
+            <div class="info">
+                <h3>+5</h3>
+                <p>Happy Clients</p>
+            </div>
+            <i class='bx bx-chevron-right'></i>
+        </div>
+    </div>
+
+    <h5 class="seprator">Who i am</h5>
+
+    <div class="about">
+        <img src="assets/image.png">
+        <div class="info">
+            <h3>About Me</h3>
+            <p>Hi! I'm a passionate Frontend Developer, Cybersecurity Engineer 
+                and Graphic, UI and UX Designer from Argentina, 
+                specialized in creating amazing and functional digital experiences. 
+                My focus is combining visual aesthetics with functionality and security to 
+                create intuitive and engaging products.
+            </p>
+            <a href="https://nacode.site/certificates" target="_blank" class="certificates-btn">Certificates</a>
+        </div>
+    </div>
+
+    <h5 class="seprator">My skills</h5>
+
+    <div class="skills">
+        <div class="left">
+            <div class="info">
+                <h3>Which are my skills?</h3>
+                <p>
+                    I develop simple, intuitive and responsive user interface that helps users get things done with less
+                    effort and time with those technologies.
+                </p>
+            </div>
+            <button class="hire-btn">Hire Me</button>
         </div>
 
-        <div class="portfo-items">
+        <div class="right">
             <div class="item">
-                <img src="assets/sc-1.jpg" alt="Diseño de Interfaz, Better Google Phone">
-                <div class="info">
-                    <h4>UI/UX, Better Google (Phone)</h4>
-                    <p>
-                        Inicio de sesión de Google (para versiones móviles), con un estilo mas
-                        innovador, moderno y fresco.
-                    </p>
-                    <a href="https://www.figma.com/file/YVujcRd0lgFYr3DGbpRWaz/Untitled?type=design&node-id=0%3A1&mode=design&t=19W6YorZcXz6Xesq-1" target="_blank">Ver en Figma <i class='bx bxl-figma'></i></a>
-                </div>
+                <i class='bx bxl-html5'></i>
             </div>
             <div class="item">
-                <img src="assets/sc-2.jpg" alt="Sitio Web Bienes Raices Nacode">
-                <div class="info">
-                    <h4>Bienes Raices</h4>
-                    <p>
-                        Página estática de bienes raices, con multiples páginas y estilos.
-                        Con un diseño interesante y captador. 
-                    </p>
-                    <a href="https://bienr.vercel.app/" target="_blank">Visitar página <i class='bx bx-link-external'></i></a>
-                </div>
+                <i class='bx bxl-css3'></i>
             </div>
             <div class="item">
-                <img src="assets/sc-3.jpg" alt="Nacode Login">
-                <div class="info">
-                    <h4>Login</h4>
-                    <p>
-                        Sitio web estático de inicio de sesión, minimalista, oscuro y 
-                        orientado a un panel.
-                    </p>
-                    <a href="https://nacodelogin.vercel.app/" target="_blank">Visitar página <i class='bx bx-link-external'></i></a>
-                </div>
+                <i class='bx bxl-javascript'></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-python'></i>
+            </div>
+            <div class="item">
+                <i class="bx bxl-react"></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-c-plus-plus'></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-go-lang'></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-figma'></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-github'></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-git'></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-gitlab'></i>
+            </div>
+            <div class="item">
+                <i class='bx bxl-mongodb'></i>
             </div>
         </div>
 
     </div>
-
-    <div class="container" id="contactoform">
-        <h2>Contacto</h2>
-        <form
-        class="contacto"
-        action="https://formspree.io/f/meqyzzre"
-        method="POST"
-        >
-        <label for="name">
-            <span class="required">*</span> Nombre completo:
-          <input type="text" name="name" required>
-        </label>
-        <label for="email">
-            <span class="required">*</span> Correo electrónico: 
-          <input type="email" name="email" required>
-        </label>
-        <label for="message">
-            <span class="required">*</span> Mensaje: 
-          <textarea name="message" required></textarea>
-        </label>
-        <button class="formularioboton" type="submit">Enviar</button>
-      </form>
-      </div>
-        <script>
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            var formData = new FormData(this);
-            formData.append('to', 'ggiimmenezzz@gmail.com');
-            fetch('https://formspree.io/f/meqyzzre', {
-                method: 'POST',
-                body: formData,
-                headers: {
-                'Accept': 'application/json'
-                }
-            })
-            .then(function(response) {
-                if (response.ok) {
-                alert('¡Mensaje enviado correctamente!');
-                document.getElementById('contact-form').reset();
-                } else {
-                throw new Error('Network response was not ok.');
-                }
-            })
-            .catch(function(error) {
-                console.error('Error:', error);
-            });
-            });
-            </script>      
 
     <footer>
-        <div class="top">
-            <div class="logo">
-                <img src="assets/logo.png" alt="logo nacode 2">
-                <a href="https://instagram.com/at.nxcho">nacode</a>
-            </div>
-            <ul>
-                <li><a href="#main">Inicio</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-            </ul>
-            <div class="social-links">
-                <a href="https://api.whatsapp.com/send?text=¡Mira%20el%20sitio%20de%20este%20desarrollador%20y%20diseñador!:%20https://nacode.site/" target="_blank"><i class="fa-solid fa-share"></i></a>
-                <a href="https://github.com/nacodeee" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://instagram.com/at.nxcho" target="_blank"><i class='bx bxl-instagram'></i></a>
-                <a href="https://x.com/@atnxchoo" target="_blank"><i class='bx bxl-twitter'></i></a>
-                <a href="https://discord.nacode.site/" target="_blank"><i class='bx bxl-discord'></i></a>
-                <a href="https://www.linkedin.com/in/ignacio-martin-gimenez-2b8290301/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-            </div> 
+        <div class="start">
+            <h3>Start a project</h3>
+            <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
+            <button>Let's do this</button>
         </div>
-        <div class="separator">
-        <div class="bottom">
-            <p id="nacho">
-                Hecho con ❤️ por nacode.
-            </p>
-        </div>
-        </div>
-    </footer>
 
+        <div class="cols">
+            <div class="about-col">
+                <h3>nacode</h3>
+                <p>Frontend Developer, Cybersec Engineer <br>and Graphic/UI/UX Designer</p>
+            </div>
+
+            <div class="links-col">
+                <h4>Useful Links</h4>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="links-col">
+                <h4>Social Media</h4>
+                <a href="https://instagram.com/at.nxcho" target="_blank">Instagram</a>
+                <a href="https://tiktok.com/@nacodeee" target="_blank">TikTok</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">Dribbble</a>
+                <a href="https://github.com/nacodeee" target="_blank">Github</a>
+            </div>
+
+            <div class="news-col">
+                <h4>NewsLetter</h4>
+                <p>Enter your email and get notified about news, of.</p>
+
+                <form>
+                    <input type="email" placeholder="Your email address">
+                    <button><i class='bx bxl-telegram'></i></button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </footer>
     <script src="script.js"></script>
 </body>
 
 </html>
-
